@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/tec.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.navbar ul{
+    float: right; /*Pesquisar depois*/
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;/*Pesquisar depois*/
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px; /*Pesquisar depois*/
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', 'sans-serif';
+    padding: 6px 13px;
+    transition: .4s;
+}
+
+.navbar ul li a.home,
+.navbar ul li a:hover {
+    background-color: red;
+    border-radius: 4px;
+}
+
+#log {
+    width: 120px;
+    height: 55px;
+    padding: 20px 100px;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.conteudo .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', 'sans-serif';
+    user-select: none;
+}
+
+.center h1 {
+    color: rgb(0, 0, 0);
+    font-size: 90px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2 {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight: bold;
+    width: 850px;
+    text-align: center;
+}
+
+strong {
+    color: white;
+}
+
+.center .buttons {
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: 1px solid #cc0000;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.buttons .btn {
+    margin-left: 25px;
+}
+
+.buttons button:hover {
+    background-color: #e28080;
+}
+
